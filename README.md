@@ -211,7 +211,7 @@ private_trap = true
 ## 🔄 Maintenance
 
 ### Service Management
-bash
+```bash
 # Check status
 sudo systemctl status dex-monitor
 
@@ -220,6 +220,7 @@ sudo journalctl -u dex-monitor -f
 
 # Restart service
 sudo systemctl restart dex-monitor
+```
 
 
 ### Contract Updates
